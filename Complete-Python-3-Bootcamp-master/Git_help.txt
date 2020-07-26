@@ -1,0 +1,49 @@
++++++++++++++++++++++++++++++++++++++++++++++
+Initlaize:
+
+#remote
+	git clone https://github.com/jbantony/Python_BootCamp_2020.git
+
+#local
+	git init 
+
++++++++++++++++++++++++++++++++++++++++++++
+
+git status			: give the status of the current work
+
+git checkout -b branchname 	: checkout and create a new branch
+
+git checkout master		: checkout master
+
+git branch			: shows the active branches 
+
+git branch -d <branch_name>	: delete the branch
+
++++++++++++++++++++++++++++++++++++++++++++
+# stage and commit
+
+git add 			: add file or folder to a commit after changing
+
+git commit -m "Comment"		: make the commit or save
+
++++++++++++++++++++++++++++++++++++++++++++
+
+git remote -v			: shows the remote locations
+
+git remote add origin <url>	: add the origin for a repo initiated locally
+
+git push origin branchname	: push the comitted branch to the origin repo
+
++++++++++++++++++++++++++++++++++++++++++++
+
+git pull origin <branch>	: pull the latest version of the branch to locally
+
+git log				: see the log
+
+++++++++++++++++++++++++++++++++++++++++++
+Pull requests			: PR
+
+
+++++++++++++++++++++++++++++++++++++++++++
+# Forking 	: Creates a local copy of the someoneelse's project 
+
