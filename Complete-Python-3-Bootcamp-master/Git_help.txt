@@ -51,6 +51,7 @@ git log				: see the log
 ++++++++++++++++++++++++++++++++++++++++++
 
 git merge <branchname> 		: merge a local branch 
+
 ++++++++++++++++++++++++++++++++++++++++++
 Pull requests			: PR
 
