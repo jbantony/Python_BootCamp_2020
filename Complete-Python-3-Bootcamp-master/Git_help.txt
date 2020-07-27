@@ -49,6 +49,9 @@ git pull origin <branch>	: pull the latest version of the branch to locally
 git log				: see the log
 
 ++++++++++++++++++++++++++++++++++++++++++
+
+git merge <branchname> 		: merge a local branch 
+++++++++++++++++++++++++++++++++++++++++++
 Pull requests			: PR
 
 
