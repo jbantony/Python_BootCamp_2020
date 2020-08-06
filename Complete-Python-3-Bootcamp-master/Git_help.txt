@@ -9,7 +9,7 @@ Initlaize:
 
 +++++++++++++++++++++++++++++++++++++++++++
 
-git config          : shows the config data 
+git config          		: shows the config data 
 
 git status			: give the status of the current work
 
@@ -36,7 +36,7 @@ git remote add origin <url>	: add the remote location for a repo initiated local
 
 git remote add <othername> <url> : add another remote 
 
-git remote rm <origin>      : removes the remote origin
+git remote rm <origin>      	: removes the remote origin
 
 git push origin branchname	: push the comitted branch to the origin repo
 

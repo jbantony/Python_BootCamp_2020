@@ -1,0 +1,49 @@
+*******************************************************
+#set Proxy & Connect to VPN:
+
+set HTTP_PROXY=http://q500128:password@proxy.muc:8080
+
+********************************************************
+
+# Set Python Path
+
+python -c "import sys; print('\n'.join(sys.path))"
+
+export PYTHONPATH=${PYTHONPATH}:/home/mluser/notebooks/laser/models-1.13.0/research/slim
+
+
+#export only in linux
+export PYTHONPATH=${PYTHONPATH}:C:\Users\Q500128\Desktop\Masterarbeit\tensorflow_models-1.13.0\models-1.13.0\research
+
+#set works on windows
+set PYTHONPATH=C:\Users\Q500128\Desktop\Masterarbeit\tensorflow_models-1.13.0\models-1.13.0\research;C:\Users\Q500128\Desktop\Masterarbeit\tensorflow_models-1.13.0\models-1.13.0\research\slim
+
+********************************************************
+
+#Protobuf
+# From tensorflow/models/research/
+protoc object_detection/protos/*.proto --python_out=.
+
+********************************************************
+
+# Check the Object detection API
+# If using Tensorflow 1.X:
+python object_detection/builders/model_builder_test.py
+
+********************************************************
+
+#Screen 
+create a named session : screen -S session_name
+
+list the sessions	: screen -ls
+
+resume a session	: screen -r
+
+Detach a session	: Ctrl+a, ctrl+d
+
+remove a session	: screen -X -S session_name quit
+
+logout 			: Ctrl+a d
+
+ctrl+a :quit  or ctrl+a k
+
