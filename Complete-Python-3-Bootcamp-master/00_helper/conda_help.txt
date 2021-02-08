@@ -1,0 +1,32 @@
++++++++++++++++++++++++++
+
+Help : https://docs.conda.io/projects/conda/en/latest/commands.html
+
++++++++++++++++++++++++++
+
+Install a package: conda install $PACKAGE_NAME
+
+Update a package: conda update --name $ENVIRONMENT_NAME $PACKAGE_NAME
+
+Uninstall a package: conda remove --name $ENVIRONMENT_NAME $PACKAGE_NAME
+
+++++++++++++++++++++++++++
+
+Create an environment: conda create --name $ENVIRONMENT_NAME python
+
+Activate an environment: conda activate $ENVIRONMENT_NAME
+
+List installed packages: conda list --name $ENVIRONMENT_NAME
+
+List all environments: 	conda info --envs
+
+Install packages from an enviornement: conda create -n myenv --file package-list.txt
+
+Save packages for future use: conda list --export > package-list.txt
+
+List all packages in the current environment: conda list
+
+List all packages installed into the environment 'myenv':  conda list -n myenv
+
+++++++++++++++++++++++++++
+
